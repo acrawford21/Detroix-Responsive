@@ -1,0 +1,296 @@
+.clear {
+    display: none;
+}
+
+.upcase {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.tnb {
+    background: #141c2f;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+.tnb:hover {
+    background-color: #fc8800;
+    border-color: black;
+}
+
+.dm {
+    position: relative;
+    left: 188px;
+}
+
+@media (max-width: 762px) {
+    .mnl {
+        display: flex;
+        margin-bottom: 25px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 762px) {
+    .dm {
+    display: none;
+    }
+}
+
+.top-nav-list {
+    font-size: 12px;
+    padding-right: 176px;
+    text-transform: uppercase;
+    justify-content: end;
+}
+
+
+.nav-link {
+    color: #e2e2e2;
+}
+
+.logo-img {
+    position: relative;
+    bottom: 15px;
+}
+
+.top-header {
+    background-color: #141c2f;
+}
+
+.main-header {
+    padding-top: 30px;
+}
+
+.sub-header {
+    text-transform: uppercase;
+}
+
+.sub-header2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    left: 23px;
+    display: inline-block;
+    color: white;
+}
+
+.footer {
+    background-image: radial-gradient(at top, #1d2e44, #0c131b);
+    margin-top: 55px;
+}
+
+.btm {
+    position: relative;
+    top: 20px;
+}
+
+.service-list-item {
+    list-style-image: url('../media/cog.png');
+    line-height: 2.15;
+}
+
+.opp-list-item {
+    list-style-image: url('../media/chat.png');
+}
+
+.date-div {
+    border-style: solid orange;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+
+.list-text {
+    font-size: 12px;
+}
+
+.bltl {
+    font-size: 13px;
+}
+
+.colophon {
+    background-color: #0b1016;
+    color: white;
+}
+
+.ct {
+    width: 210px;
+    position: relative;
+    top: 5px;
+    left: 444px;
+    display: inline-block;
+}
+
+@media (max-width: 762px) {
+    .ct {
+        position: relative;
+        left: 0;
+    }
+}
+
+.date-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -78px;
+    top: 71px;
+}
+
+.news-list {
+    position: relative;
+    top: -61px;
+    left: 62px;
+}
+
+@media (max-width: 762px) {
+    .news-list {
+        display: inline-block;
+        position: relative;
+        left: 38px;
+    }
+}
+
+.button1 {
+    position: relative;
+    top: 46px;
+    left: 24px;
+}
+
+.button2 {
+    position: relative;
+    top: 2px;
+    left: 40px;
+}
+
+.button3 {
+    position: relative;
+    top: -45px;
+    left: 24px;
+}
+
+@media (max-width: 762px) {
+    .button3 {
+        position: relative;
+        left: 0;
+    }
+}
+
+.box1 {
+    background-color: #be8243;
+}
+.box2 {
+    background-color: #b96149;
+}
+
+.box3 {
+    background-color: #b54462;
+}
+
+.db1 {
+    position: relative;
+    font-size: 30px;
+}
+
+.db2 {
+    position: relative;
+    font-size: 30px;
+}
+
+.db3 {
+    position: relative;
+    font-size: 30px;
+}
+
+.mb1 {
+    position: relative;
+    font-size: 20px;
+    left: -1px;
+    bottom: 32px;
+}
+
+.mb2 {
+    position: relative;
+    font-size: 20px;
+    left: -1px;
+    bottom: 32px;
+}
+
+.mb3 {
+    position: relative;
+    font-size: 20px;
+    left: -1px;
+    bottom: 32px;
+}
+
+@media (max-width: 762px) {
+    .dt {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 762px) {
+    .services {
+        margin-bottom: 80px;
+    }
+} 
+
+@media (max-width: 762px) {
+    .opportunities {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 762px) {
+    .news {
+        margin-bottom: 50px;
+    }
+}
+
+body {
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        font-size: 4vw;
+    }
+    
+}
+
+@media (max-width: 762px) {
+    .tnl {
+        display: flex;
+        padding-right: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 762px) {
+    .opportunities {
+        position: relative;
+        left: -20px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 762px) {
+    .services {
+        position: relative;
+        left: -20px;
+        top: 20px;
+    }
+}
